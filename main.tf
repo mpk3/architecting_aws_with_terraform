@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "leappk3"
+
+    workspaces {
+      name = "architecting-aws-wit-terraform"
+    }
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
