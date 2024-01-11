@@ -6,7 +6,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "leappk3"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "mpk3/architecting_aws_with_terraform"
+  TF-WORKSPACE: "architecting-aws-with-terraform"
   CONFIG_DIRECTORY: "./"
 
 jobs:
