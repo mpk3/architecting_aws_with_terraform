@@ -4,14 +4,14 @@ on:
   pull_request:
 
 env:
-  TF_CLOUD_ORGANIZATION: "leappk3"
+  TF_CLOUD_ORGANIZATION: "leappk3
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "architecting_aws_with_terraform"
   CONFIG_DIRECTORY: "./"
 
 jobs:
   terraform:
-    if: github.repository != 'mpk3/architecting_aws_with_terraform'
+    if: github.repository != 'hashicorp-education/learn-terraform-github-actions'
     name: "Terraform Plan"
     runs-on: ubuntu-latest
     permissions:
