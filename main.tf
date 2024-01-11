@@ -3,7 +3,7 @@ terraform {
     organization = "leappk3"
 
     workspaces {
-      name = "architecting-aws-wit-terraform"
+      name = "architecting-aws-with-terraform"
     }
   }
   required_providers {
